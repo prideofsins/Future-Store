@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4e73df, #224abe);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ffd43b;
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffca2c;
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .feature-box h3 {
+            margin-bottom: 10px;
+            color: #4e73df;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .product img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        .product-text {
+            flex: 1;
+        }
+
+        .testimonial {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        footer {
+            background: #222;
+            color: #bbb;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Selamat Datang Di Future Store</h1>
+    <p>Future STORE SIAP MELAYANI !! Menjual makanan ringan,berat,dessert dan bahkan hadiah bucket untuk pacarmu looh!!.</p>
+    <a href="#beli" class="btn">Beli Sekarang</a>
+</header>
+
+<section class="product">
+    <img src="https://drive.google.com/file/d/1jOSTfTexDg1jNnPnaJc7N3Rl1Jxf46Dh/view?usp=drive_link"alt="Cireng Sedang" />
+    <div class="product-text">
+        <h2>Cireng Sedang|Rp2.500</h2>
+        <p>
+            RASA
+        </p>
+        <ul>
+            <li>KEJU</li>
+            <li>AYAM SUWIR</li>
+            <li>SOSIS PEDAs/ORIGINAL</li>
+            <li>USUS PEDAS</li>
+            <li>ATI AYAM PEDAS</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2 style="text-align:center;">Keunggulan Produk</h2>
+    <div class="features">
+        <div class="feature-box">
+            <h3>⚡ Cepat</h3>
+            <p>pelayanan baik.</p>
+        </div>
+        <div class="feature-box">
+            <h3>🔒 Aman</h3>
+            <p>sudah diamankan dengan sangat teliti atau sudah save.</p>
+        </div>
+        <div class="feature-box">
+            <h3>💡 Praktis</h3>
+            <p>siap digunakan.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 style="text-align:center;">Testimoni Pelanggan</h2>
+    <div class="testimonial">
+        ⭐⭐⭐⭐⭐  
+        "Akunnya bagus banget! Cepat dan aman. !!"
+        <br><strong>- Andi</strong>
+    </div>
+    <div class="testimonial">
+        ⭐⭐⭐⭐⭐  
+        "Akunnya save, dan harga ramah di kantong."
+        <br><strong>- Sinta</strong>
+    </div>
+</section>
+
+<section id="beli" style="text-align:center;">
+    <h2>Siap Mencoba?</h2>
+    <p>Dapatkan sekarang sebelum kehabisan!</p>
+    <a href="#" class="btn">Pesan Sekarang</a>
+</section>
+
+<footer>
+    © 2026 FUTURE STORE | Semua Hak Dilindungi JOKOWI
+</footer>
+
+</body>
+</html>
